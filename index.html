@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock-Paper-Scissor</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Annie Use Your Telescope">
+    </head>
+    <body style="background-color: azure;">
+        <div>
+            <div id="top-title">Rock Paper Scissor</div>
+            <div class="description">Let try your Luck</div>
+            <div>
+                <image id="player_choice" src="assets/question_mark.jpg"></image>
+            </div>
+            <div class="description" style="height: 80px; width:100%">
+                <div class="text-box" id="rock" onclick="choose_rock()">Rock</div>
+                <div class="text-box" id="paper" onclick="choose_paper()">Paper</div>
+                <div class="text-box" id="scissor" onclick="choose_scissor()">Scissor</div>
+            </div>
+            <div class="text-box" id="confirm" onclick="confirm()">Confirm</div>
+            <div class="description" style="width:100%; text-align: left;">
+                <span style="color:tomato; font-weight: bold;">BATTLE LOG : </span><span id="battleLog">KOKODAYO!!!<span>
+            </div>
+            <div class="description" style="width:100%; text-align: left; margin-top:10px">
+                <span style="color:blue; font-weight: bold;">SCORE : </span><span id="score">FUCK U MAN</span>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+#top-title{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Annie Use Your Telescope;
+}
+
+#player_choice{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width:300px;
+    height:300px;
+}
+
+#confirm{
+    display: block;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Annie Use Your Telescope;
+    float: none;
+}
+
+#confirm:hover{
+    background-color: bisque;
+}
+
+.description{
+    margin-top:30px;
+    font-size:18px;
+    font-family: Annie Use Your Telescope;
+    text-align: center;
+}
+
+.text-box{
+    
+    display: inline-block;
+    padding: 10px;
+    width:50px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+
+}
+.text-box:hover{
+    cursor: pointer;
+}
+
